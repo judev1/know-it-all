@@ -36,7 +36,6 @@ def replace(text):
     text = text.replace("74&ndash;", "-")
     return text
 
-TOKEN = "ODA1NDU1MTA2MzQxNDcwMjYw.YBbIhQ.o87qgNoMJX9fJdAOBFwN8UO2lEw"
 bot = Bot(command_prefix="kia ")
 
 @bot.event
